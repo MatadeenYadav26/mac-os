@@ -1,0 +1,67 @@
+.dock{
+    display: flex;
+    gap:0.75rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+     background-color: rgb(63,63,63,0.395);
+    padding-inline: 1rem;
+    padding-block: 0.75rem;
+    border-radius: 0.75rem;
+
+    backdrop-filter: blur(5px);
+
+
+    .icon{
+        padding: 0.65rem;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        aspect-ratio: 1/1;
+        width: 3.75rem;
+        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .github{
+        background:linear-gradient(to bottom,rgb(26, 26, 26),rgb(0, 0, 0))
+    }
+
+    .note{
+        background:linear-gradient(to bottom,rgb(251, 117, 0),rgb(73, 34, 0))
+    }
+    .pdf{
+        background:linear-gradient(to bottom,rgb(243, 75, 86),rgb(3, 0, 0))
+    }
+    .calender{
+        background:linear-gradient(to bottom,rgb(65, 52, 248),rgb(1, 0, 12))
+    }
+    .spotify{
+        background:linear-gradient(to bottom,rgb(49, 254, 35),rgb(0, 10, 0))
+    }
+    .mail{
+        background:linear-gradient(to bottom,rgb(73, 27, 254),rgb(10, 0, 67))
+    }
+    .link{
+        background:linear-gradient(to bottom,rgb(129, 27, 254),rgb(36, 0, 66))
+    }
+    .cli{
+        background:linear-gradient(to bottom,rgb(62, 62, 62),rgb(0, 0, 0))
+    }
+
+
+    .icon:hover{
+        transform: scale(1.25) translateY(-20%);
+    }
+
+    // combinators : jispe hover ho rha hoga , uske aage peeche par v effect ana
+
+    .icon:hover + .icon,  // this means jo hover ho rha h uske age wala me effect ayega
+    .icon:has(+ .icon:hover) // this means jiska agla icon hover ho rha hai , vo icon v hover hoga!
+    {
+        transform: scale(1.1) translateY(-10%);
+    }
+}
