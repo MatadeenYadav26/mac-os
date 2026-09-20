@@ -1,12 +1,12 @@
 import React from 'react'
 import './app.scss'
-import { useState } from 'react'
 import Dock from './components/Dock.jsx'
+import Nav from './components/Nav.jsx'
 
-
-function App()  {
+function App() {
   return (
     <main>
+      <Nav />
       <Dock />
     </main>
   )
