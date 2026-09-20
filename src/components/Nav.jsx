@@ -1,5 +1,5 @@
 import React from 'react'
-import './Nav.scss'
+import './nav.scss'
 import DateTime from './DateTime'
 
 const Navbar = () => {
