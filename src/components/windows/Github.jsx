@@ -1,7 +1,7 @@
 import React from 'react'
 import MacWindow from './MacWindow'
 import githubData from '../../assets/github.json'
-import "./github.scss" 
+import "./github.scss"  
 
 const GitCard=({data={id:1,image:"",title:"",description:"",tags:[],repoLink:"",demoLink:""}})=>{
     return <div className="card">
