@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000",
+    "title": "Scheds - A Course Schedule Generator",
+    "description": "My proudest project yet, a comprehensive course schedule generator application built with ASP.NET Core MVC.",
+    "tags": ["ASP.NET Core", "C#", "Entity Framework", "SQL Server", "Bootstrap", "jQuery"],
+    "repoLink": "https://github.com/microsoft/dotnet",
+    "demoLink": "https://dotnet.microsoft.com/"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+    "title": "FinTrack - Personal Finance Dashboard",
+    "description": "A real-time finance tracker that visualizes spending habits using interactive charts and connects to banking APIs.",
+    "tags": ["React", "TypeScript", "Chart.js", "Node.js", "Express", "MongoDB"],
+    "repoLink": "https://github.com/facebook/react",
+    "demoLink": "https://react.dev/"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000",
+    "title": "SecureAuth - Backend Identity Service",
+    "description": "A robust backend authentication microservice featuring JWT implementation, role-based access control, and OAuth2 integration.",
+    "tags": ["Python", "Django", "PostgreSQL", "Docker", "Redis", "JWT"],
+    "repoLink": "https://github.com/django/django",
+    "demoLink": null
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000",
+    "title": "ChatStream - Real-time Messaging App",
+    "description": "A lightweight chat application allowing users to create rooms and message instantly. Optimized for low latency communication.",
+    "tags": ["Vue.js", "Firebase", "Tailwind CSS", "Socket.io"],
+    "repoLink": "https://github.com/vuejs/core",
+    "demoLink": "https://vuejs.org/"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
+    "title": "TerminalX - CLI Productivity Tool",
+    "description": "A command-line interface tool built to automate repetitive developer tasks and manage local environments efficiently.",
+    "tags": ["Rust", "Clap", "Tokio", "System API"],
+    "repoLink": "https://github.com/rust-lang/rust",
+    "demoLink": null
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=1200",
+    "title": "React",
+    "description": "A popular JavaScript library for building component-based user interfaces and modern web applications.",
+    "tags": ["JavaScript", "React", "Frontend", "UI"],
+    "repoLink": "https://github.com/facebook/react",
+    "demoLink": "https://react.dev/"
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&q=80&w=1200",
+    "title": "Excalidraw",
+    "description": "An open-source collaborative whiteboard for creating diagrams, wireframes, and visual ideas with a hand-drawn style.",
+    "tags": ["TypeScript", "React", "Canvas", "Open Source"],
+    "repoLink": "https://github.com/excalidraw/excalidraw",
+    "demoLink": "https://excalidraw.com/"
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&q=80&w=1200",
+    "title": "Cal.com",
+    "description": "An open-source scheduling platform for managing bookings, availability, calendars, and meeting workflows.",
+    "tags": ["Next.js", "React", "TypeScript", "Prisma"],
+    "repoLink": "https://github.com/calcom/cal.com",
+    "demoLink": "https://cal.com/"
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1200",
+    "title": "freeCodeCamp",
+    "description": "An open-source learning platform providing interactive programming courses, certifications, and developer resources.",
+    "tags": ["JavaScript", "TypeScript", "Node.js", "Education"],
+    "repoLink": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "demoLink": "https://www.freecodecamp.org/"
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200",
+    "title": "Next.js",
+    "description": "A React framework for building full-stack web applications with routing, rendering, optimization, and deployment capabilities.",
+    "tags": ["React", "Next.js", "TypeScript", "Full Stack"],
+    "repoLink": "https://github.com/vercel/next.js",
+    "demoLink": "https://nextjs.org/"
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
+    "title": "Supabase",
+    "description": "An open-source Firebase alternative providing a Postgres database, authentication, storage, realtime features, and APIs.",
+    "tags": ["PostgreSQL", "TypeScript", "React", "API", "Open Source"],
+    "repoLink": "https://github.com/supabase/supabase",
+    "demoLink": "https://supabase.com/"
+  }
+]
