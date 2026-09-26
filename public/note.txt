@@ -1,105 +1,363 @@
 /**
  * @file: profile.config.ts
- * @author: Engineering Portfolio
- * @summary: A high-performance full-stack engineer.
+ * @author: Matadeen Yadav
+ * @summary: Computer Science student building full-stack projects
+ *           and exploring software engineering, AI/ML and business.
  */
 
 // --------------------------------------------------
-// 1. CORE DEPENDENCIES & SKILLS
+// 1. CURRENT STATUS
+// --------------------------------------------------
+
+const PROFILE = {
+  name: "Matadeen Yadav",
+  role: "Computer Science Engineering Student",
+  year: "3rd Year",
+  university: "MIT-ADT University, Pune",
+  cgpa: "8.0",
+  status: "Open to Internships",
+  interests: [
+    "Full-Stack Development",
+    "Software Engineering",
+    "AI / ML",
+    "Data Analytics",
+    "Business & Entrepreneurship"
+  ]
+};
+
+
+// --------------------------------------------------
+// 2. CORE TECH STACK
 // --------------------------------------------------
 
 const TECH_STACK = {
+
   frontend: [
-    "React.js",    // 100%
-    "Next.js",     // 95%
-    "TailwindCSS", // 90%
-    "Three.js",    // 70%
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "React Router",
+    "SCSS"
   ],
+
   backend: [
-    "Node.js",     // 90%
-    "PostgreSQL",  // 85%
-    "Redis",       // 75%
-    "Docker",      // 80%
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "REST APIs"
   ],
-  tools: ["AWS", "Git", "Figma", "Linux"]
+
+  programming: [
+    "C++",
+    "Java",
+    "JavaScript"
+  ],
+
+  computerScience: [
+    "Data Structures & Algorithms",
+    "OOP",
+    "DBMS",
+    "Operating Systems",
+    "Computer Networks"
+  ],
+
+  dataAndAI: [
+    "Python",
+    "SQL",
+    "Excel",
+    "Power BI",
+    "Machine Learning",
+    "Deep Learning",
+    "Generative AI"
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Vite",
+    "Vercel"
+  ]
 };
 
+
 // --------------------------------------------------
-// 2. EXPERIENCE LOG (Reverse Chronological)
+// 3. CURRENT LEARNING PATH
 // --------------------------------------------------
 
-class ProfessionalHistory {
-  
-  /** * CURRENT ROLE
-   * @period 2023 - Present 
-   */
-  public async TechFlow_Systems(): Promise<Impact> {
-    const role = "Senior Full-Stack Engineer";
-    
-    // Key Achievements
-    const optimized = await api.optimize({ strategy: "Redis Caching" });
-    const latencyReduction = "40%";
-    
-    const leadership = this.mentor(["Jr. Dev 1", "Jr. Dev 2", "Jr. Dev 3"]);
-    const architecture = "Monolith -> Microservices Migration";
-    
-    return { role, optimized, architecture, leadership };
-  }
+class LearningPath {
 
-  /** * PREVIOUS ROLE
-   * @period 2021 - 2023
-   */
-  public PixelPerfect_Studios(): void {
-    this.role = "Frontend Developer";
-    this.focus = "High-Fidelity Animations";
-    
-    // Implemented GSAP scroll-triggers for 15+ clients
-    // Improved Lighthouse Performance Scores: 65 -> 98
-  }
+  currentFocus = [
+    "MERN Stack",
+    "React.js",
+    "Data Structures & Algorithms"
+  ];
+
+  nextFocus = [
+    "Node.js Backend Development",
+    "Advanced Backend Development",
+    "Spring Boot"
+  ];
+
+  exploring = [
+    "AI / ML",
+    "Generative AI",
+    "MLOps",
+    "System Design"
+  ];
+
 }
 
+
 // --------------------------------------------------
-// 3. COMPETITIVE ACHIEVEMENTS
+// 4. PROJECTS
 // --------------------------------------------------
 
-interface HackathonWin {
-  rank: number;
-  event: string;
-  project: string;
-}
+const PROJECTS = [
 
-const trophyCabinet: HackathonWin[] = [
   {
-    rank: 1,
-    event: "Global AI Hackathon 2024",
-    project: "EcoVision (Computer Vision Waste Segregation)",
-    // Prize: $5,000
+    name: "macOS UI",
+    stack: [
+      "React",
+      "Vite",
+      "SCSS",
+      "React Rnd"
+    ],
+    features: [
+      "Draggable Windows",
+      "Resizable Windows",
+      "Dynamic Components",
+      "GitHub Portfolio",
+      "Markdown Notes"
+    ]
   },
+
   {
-    rank: 500, // Top 500 Global
-    event: "Google Code Jam 2023",
-    project: "Algorithm Optimization (Dynamic Programming)",
+    name: "Airbnb Clone",
+    stack: [
+      "MERN",
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    focus: "Full-Stack Web Development"
+  },
+
+  {
+    name: "Productivity Dashboard",
+    stack: [
+      "React",
+      "JavaScript",
+      "SCSS"
+    ],
+    focus: "Productivity & Dashboard UI"
+  },
+
+  {
+    name: "IPL Dashboard",
+    stack: [
+      "Data Analytics",
+      "Power BI",
+      "SQL"
+    ],
+    focus: "Sports Data Visualization"
+  },
+
+  {
+    name: "HR Attrition Analysis",
+    stack: [
+      "Excel",
+      "Power BI",
+      "Data Analytics"
+    ],
+    focus: "Business Intelligence"
+  },
+
+  {
+    name: "Inventory & Billing System",
+    stack: [
+      "SQL",
+      "Database Management"
+    ],
+    focus: "Business & Database Systems"
   }
 ];
 
+
 // --------------------------------------------------
-// 4. ACADEMIC BACKGROUND
+// 5. DEVELOPMENT JOURNEY
 // --------------------------------------------------
 
-const education = new Map<string, string>([
-  ["Stanford University", "MS Computer Science (3.9 GPA)"],
-  ["MIT World Peace Univ", "B.Tech Information Tech (8.8 CGPA)"]
-]);
+const JOURNEY = {
 
-export default new ProfessionalHistory();
+  completed: [
+    "JavaScript Fundamentals",
+    "DOM",
+    "React Fundamentals",
+    "React Router",
+    "Context API",
+    "Git & GitHub",
+    "Vite",
+    "SCSS"
+  ],
+
+  currentlyBuilding: [
+    "MERN Projects",
+    "DSA",
+    "Interactive React Interfaces"
+  ],
+
+  nextMilestones: [
+    "Advanced Node.js",
+    "Backend Development",
+    "Spring Boot",
+    "DevOps Fundamentals"
+  ]
+
+};
 
 
-```bash
-# TERMINAL OUTPUT
-# ---------------------------------------
+// --------------------------------------------------
+// 6. CAREER DIRECTION
+// --------------------------------------------------
+
+const CAREER = {
+
+  shortTerm: [
+    "Build strong MERN projects",
+    "Improve DSA",
+    "Get a software development internship",
+    "Build real-world development experience"
+  ],
+
+  longTerm: [
+    "Software Engineering",
+    "Product-Based Companies",
+    "Backend Engineering",
+    "Business & Product Management"
+  ],
+
+  futurePlan: "Explore MBA after gaining strong technical experience"
+
+};
+
+
+// --------------------------------------------------
+// 7. CURRENT BUILD
+// --------------------------------------------------
+
+const CURRENT_PROJECT = {
+
+  name: "macOS Inspired Portfolio",
+
+  goal:
+    "Build an interactive desktop-like portfolio experience using React.",
+
+  concepts: [
+    "Reusable Components",
+    "Props",
+    "Children",
+    "React Rnd",
+    "Dynamic JSON Data",
+    "React Markdown",
+    "SCSS",
+    "Git Workflow",
+    "Vercel Deployment"
+  ]
+
+};
+
+
+// --------------------------------------------------
+// 8. GITHUB JOURNEY
+// --------------------------------------------------
+
+const DEVELOPMENT_LOG = {
+
+  day01: "Project setup + Dock",
+
+  day02: "Navbar + Live Date & Time",
+
+  day03: "Resizable & Draggable macOS Windows",
+
+  day04: "GitHub Portfolio + Dynamic Project Cards",
+
+  day05: "React Markdown + Portfolio Notes"
+
+};
+
+
+// --------------------------------------------------
+// 9. INTERESTS
+// --------------------------------------------------
+
+const INTERESTS = [
+
+  "Web Development",
+  "Software Engineering",
+  "Artificial Intelligence",
+  "Data Analytics",
+  "DSA",
+  "Business",
+  "Startups",
+  "Product Development"
+
+];
+
+
+// --------------------------------------------------
+// 10. TERMINAL STATUS
+// --------------------------------------------------
+
+/*
+ * -----------------------------------------------
+ * SYSTEM STATUS
+ * -----------------------------------------------
+ */
+
+const SYSTEM_STATUS = {
+
+  user: "Matadeen Yadav",
+
+  role: "3rd Year CSE Student",
+
+  university: "MIT-ADT University, Pune",
+
+  primaryStack: "MERN + DSA",
+
+  currentFocus: "Building + Learning",
+
+  availability: "Open to Internships",
+
+  environment: "Windows + VS Code",
+
+  deployment: "Vercel",
+
+  versionControl: "Git + GitHub",
+
+  status: "Building in Public..."
+
+};
+
+
+// --------------------------------------------------
+// TERMINAL OUTPUT
+// --------------------------------------------------
+
+/*
 $ user --status
-> Status: Open to Opportunities
-> Location: Global / Remote
-> Loading Assets... [||||||||||] 100%
+
+> Name: Matadeen Yadav
+> Role: 3rd Year CSE Student
+> University: MIT-ADT University, Pune
+> Primary Stack: MERN + DSA
+> Current Focus: Full-Stack Development
+> Exploring: AI / ML + Backend Engineering
+> Status: Open to Internships
+> Projects: In Progress
+> GitHub: Active
+> Loading Skills... [||||||||||] 100%
+> Building Projects... [||||||||||] 100%
 > Ready.
-```
+*/

@@ -33,6 +33,7 @@
 
             .red{
                 background-color: red;
+                cursor: pointer;
             }
             .yellow{
                 background-color: rgb(255, 225, 30);
@@ -50,6 +51,15 @@
 
     .main-content{
         height: 100%;
+    }
 
+    *::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    *::-webkit-scrollbar-thumb{
+        background-color: rgba(168,168,168,0.4);
+        border-radius: 4px;
+        
     }
 }
